@@ -1,4 +1,4 @@
-//4. (skip) label suspected fraudsters
+//4. label suspected fraudsters
 MATCH (c:Client)-[]->(t:Transaction)
 WHERE t.fraud=true
 WITH c, COUNT(t) as num_frauds
