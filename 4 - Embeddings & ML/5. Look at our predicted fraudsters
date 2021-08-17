@@ -1,0 +1,2 @@
+//5. Check out the results
+MATCH (c:Client) where c.predicted_fraudster =1 RETURN c limit 5
