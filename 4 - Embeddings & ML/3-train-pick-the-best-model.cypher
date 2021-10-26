@@ -9,9 +9,9 @@ CALL gds.alpha.ml.nodeClassification.train('fraud_graph', {
    validationFolds: 5, 
    randomSeed: 2,
    params: [
-       {penalty: 0, maxEpochs: 1000},
-       {penalty: 0.5, maxEpochs: 1000},
-       {penalty: 1.0, maxEpochs: 1000}
+       {penalty: 0},
+       {penalty: 0.5},
+       {penalty: 1.0}
        ]
     }) YIELD modelInfo
   RETURN

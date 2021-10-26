@@ -6,7 +6,7 @@ CALL gds.graph.create('fraud_graph',
 	Client:{
     	label:'model_data',
         properties:{
-        	embedding:{property:'embedding', defaultValue:0},
+            embedding:{property:'embedding'},
             pageRank:{property:'pageRank', defaultValue:0},
             triangles:{property:'triangles', defaultValue:0},
             degree:{property:'degree', defaultValue:0},

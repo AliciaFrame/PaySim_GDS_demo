@@ -1,0 +1,2 @@
+//6. save the model
+CALL gds.alpha.model.store('fraud-model');
